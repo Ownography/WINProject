@@ -18,7 +18,7 @@
     position: absolute;
     margin: 0;
     padding: 0;
-    color: #F9F1E9;
+    color: #FFFFFF;
     text-align: center;
     top: 50%;
     left: 50%;
@@ -27,11 +27,23 @@
 
 }
 
+a, a:hover, a:active, a:visited { color: white;  }
+
+
 .demo .main-title {
     text-transform: uppercase;
     font-size: 4.2em;
     letter-spacing: 0.1em;
 
+}
+
+.small-text {
+    font-size: 0.3em;
+}
+
+.small-text-bold {
+    font-weight: 400;
+    font-size: 0.3em;
 }
 
 .main-title .thin {
